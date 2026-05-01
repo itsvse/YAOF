@@ -116,20 +116,25 @@ CONFIG_PACKAGE_frps=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-opkg=y
 CONFIG_PACKAGE_luci-app-ramfree=y
-CONFIG_PACKAGE_luci-app-wechatpush=y
+### 微信推送-取消
+CONFIG_PACKAGE_luci-app-wechatpush=
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
-CONFIG_PACKAGE_luci-app-unblockneteasemusic=y
+### 解锁网易云插件-取消
+CONFIG_PACKAGE_luci-app-unblockneteasemusic=n
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-usb-printer=y
 CONFIG_PACKAGE_luci-app-services-wolplus=y
-CONFIG_PACKAGE_luci-app-xlnetacc=y
-CONFIG_PACKAGE_luci-app-zerotier=y
+### 迅雷快鸟加速-取消
+CONFIG_PACKAGE_luci-app-xlnetacc=n
+### zerotier-取消
+CONFIG_PACKAGE_luci-app-zerotier=n
 CONFIG_PACKAGE_luci-app-watchcat=y
 CONFIG_PACKAGE_luci-app-natmapt=y
 CONFIG_PACKAGE_stuntman-client=y
 CONFIG_PACKAGE_luci-app-oaf=y
-CONFIG_PACKAGE_zerotier=y
+### zerotier-取消
+CONFIG_PACKAGE_zerotier=n
 CONFIG_PACKAGE_coremark=y
 CONFIG_PACKAGE_htop=y
 # CONFIG_PACKAGE_subconverter=y
